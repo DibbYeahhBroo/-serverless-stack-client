@@ -51,7 +51,7 @@ function App() {
               {isAuthenticated ? (
                 <>
                   <LinkContainer to="/emailchange">
-                    <Nav.Link>Change Email?</Nav.Link>
+                    <Nav.Link>Change Email</Nav.Link>
                   </LinkContainer>
                   <Nav.Link onClick={handleLogout}>Logout</Nav.Link>
                 </>

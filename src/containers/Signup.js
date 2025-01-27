@@ -113,6 +113,12 @@ export default function Signup() {
                         value={fields.confirmPassword}
                     />
                 </Form.Group>
+                <div style={{ margin: "15px 0", fontStyle: "italic", color: "black",textAlign: "justify"}}>
+                <p>
+                    *Please ensure your password matches and contain at least 8 characters, 
+                    including an uppercase letter, a number, and a special character.
+                </p>
+                </div>
                 <LoaderButton
                     block
                     size="lg"
